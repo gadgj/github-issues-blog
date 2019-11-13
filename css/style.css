@@ -82,3 +82,29 @@ img{
 .ds-social-links{
   width: 300px !important; /* 修正多说在 iphone5 宽度下带来的横向滚动条的问题*/
 }
+
+
+.s-bottom-layer {
+    width: 100%;
+    position: fixed;
+    z-index: 302;
+    bottom: 0;
+    left: 0;
+    height: 37px;
+    overflow: hidden;
+    color: #999;
+    zoom: 1;
+    margin: 0;
+    background-color: #fafafa;
+}
+#bottom_layer .ftCon-Wrapper {
+  line-height: 37px;
+  text-align: center;
+}
+#bottom_layer .s-bottom-recordcode {
+  display: inline-block;
+  padding-top: 6px;
+  height: 16px;
+  line-height: 16px;
+  font: 12px arial;
+}
